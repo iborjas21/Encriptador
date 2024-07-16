@@ -169,12 +169,12 @@ main{
     cursor: pointer;
     box-shadow: 0px 20px 29px -5px var(--color-sexto);
 }
-.boton-desencriptar:active{
+/*.boton-desencriptar:active{
     box-shadow: inset 2px 2px 4px var(--color-sexto);
     inset: -3px -4px 8px var(--color-primario);
     color: var(--color-secundario) ;
 
-}
+}*/
 
 
 /* -------------------------------------------------------------------------
@@ -444,6 +444,7 @@ bien en cualquier dispositivo*/
         box-sizing: border-box;
         padding: 0;
         border-radius: 24px;   
+        text-align: center;
     
     }
     
@@ -581,6 +582,7 @@ responsividad a 375px
         margin: 0 45px 0;
         padding: 0;
         border-radius: 24px;
+        text-align: center;
     }
     
     .footer{
