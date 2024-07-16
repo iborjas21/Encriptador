@@ -297,8 +297,8 @@ CONTENIDO DE LA PARTE DERECHA
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 24px;
-    margin-left: 25%;
+    padding: 48px;
+   
     visibility: hidden;
      
     
@@ -444,10 +444,10 @@ bien en cualquier dispositivo*/
         font-size: 1rem;
         margin: 0 25% 5px;
         box-sizing: border-box;
-        padding: 0;
+        padding: 20px;
         border-radius: 24px;   
         text-align: center;
-        margin-left: 25%;
+        
     
     }
     
@@ -583,7 +583,7 @@ responsividad a 375px
         width: 300px;
         font-size: 1rem;
         margin: 0 45px 0;
-        padding: 0;
+        padding: 20px;
         border-radius: 24px;
         text-align: center;
         margin-left: 12.5%;
