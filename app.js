@@ -102,7 +102,7 @@ function copiar() {
     textoResultado.select();
     document.execCommand('copy');
     /*alert('Texto copiado al portapapeles');*/
-    swal("Texto copiado al portapapeles","","success");
+    swal("Texto copiado al portapapeles","","");
     console.log(resultado);
 }
 
