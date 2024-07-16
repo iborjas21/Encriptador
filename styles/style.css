@@ -289,7 +289,8 @@ CONTENIDO DE LA PARTE DERECHA
     height: 67px;
     margin: 0 0 50px 50px;
     font-weight: 400;
-    font-size: 1rem;   
+    font-size: 1rem;  
+    line-height: 19px; 
     text-align: center;
     color:var(--color-secundario);
     background-color: var(--color-septimo);
@@ -301,8 +302,8 @@ CONTENIDO DE LA PARTE DERECHA
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0 0;
-    visibility: hidden;
+    padding: 24px;
+    visibility: hidden;   
      
     
     
