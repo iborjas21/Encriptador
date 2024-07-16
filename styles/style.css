@@ -284,6 +284,9 @@ CONTENIDO DE LA PARTE DERECHA
 }
 
 .boton-copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction:column ;
     width: 80%;
     height: 67px;
@@ -303,6 +306,7 @@ CONTENIDO DE LA PARTE DERECHA
     bottom: 0;
     left: 0;
     padding: 24px;
+
     visibility: hidden;   
      
     
@@ -443,15 +447,18 @@ bien en cualquier dispositivo*/
     
     .boton-copiar{    
         
-        flex-direction:column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 50%;
         font-size: 1rem;
         margin: 0 25% 5px;
         box-sizing: border-box;
         padding: 0;
-        border-radius: 24px;   
-        text-align: center;
-        padding-left: 0;
+        border-radius: 24px;  
+        text-align: center; 
+        padding-left: 0rem;
+        
     
     }
     
@@ -583,14 +590,17 @@ responsividad a 375px
     }    
     
     .boton-copiar{            
-        flex-direction: row;
+       display: flex;
+        justify-content: center;
+        align-items: center;         
+        /*flex-direction: row;*/
         width: 300px;
         font-size: 1rem;
         margin: 0 45px 0;
         padding: 0;
         border-radius: 24px;
         text-align: center;
-        padding-left: 0;
+        padding-left: 0rem;
     }
     
     .footer{
