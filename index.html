@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " > </script>​​​ 
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    <header>        
+            <div class="logo">
+                <img class="imagen_logo" src="./assets/logo.png" alt="logo alura letra a">
+                <!--<h1 class="titulo">Encriptador de mensajes</h1>-->
+            </div>
+           
+
+    </header>
+    <main>       
+        <section class="encriptador">            
+            <textarea  class="texto_encriptar" id="textoentrada" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador_aviso">
+                <p><img src="./assets/bi_exclamation-circle-fillbi.png" alt="imagen signo exclamacion">  
+                Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador_botones">
+                <button type="submit" class="boton-encriptar" id="boton_encriptar" onclick="encriptar()" >Encriptar!</button>
+                <button type="submit" class="boton-desencriptar" id="boton_desencriptar" onclick="desencriptar()" input >Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">            
+            <div class = "tarjeta_muneco">    
+                <img class="imagen_muneco" src="./assets/muneco.png" alt="">
+            </div>    
+            
+            <div class="tarjeta_textos">             
+                <p class="mensaje1" id="ningun_mensaje">Ningun mensaje fue encontrado</p>
+                <p class="mensaje2">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>            
+            <div>
+                <textarea type="mensaje" class="resultado" readonly></textarea>
+            </div>
+            <div>
+                <button type="submit" class="boton-copiar" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>   
+         
+
+    </main>
+    <br>
+    <hr>
+    <footer class="footer">
+        <p class="copyright">Desarrollado por iborjas21, en proceso de aprendizaje</p>
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
