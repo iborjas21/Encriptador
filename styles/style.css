@@ -298,6 +298,7 @@ CONTENIDO DE LA PARTE DERECHA
     bottom: 0;
     left: 0;
     padding: 24px;
+    margin-left: 25%;
     visibility: hidden;
      
     
@@ -446,6 +447,7 @@ bien en cualquier dispositivo*/
         padding: 0;
         border-radius: 24px;   
         text-align: center;
+        margin-left: 25%;
     
     }
     
@@ -584,6 +586,7 @@ responsividad a 375px
         padding: 0;
         border-radius: 24px;
         text-align: center;
+        margin-left: 12.5%;
     }
     
     .footer{
