@@ -278,6 +278,10 @@ CONTENIDO DE LA PARTE DERECHA
 .resultado:focus{
     outline: none;
 }
+.copiar{
+    text-align: center;
+    align-items: center;
+}
 
 .boton-copiar{
     flex-direction:column ;
