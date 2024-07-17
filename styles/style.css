@@ -357,7 +357,7 @@ bien en cualquier dispositivo*/
         
         flex-direction: column;
         width: 100%;
-        font-size: auto;
+        font-size: 32px;
         /*border: medium solid black;*/
     }
     ::placeholder{
@@ -529,7 +529,7 @@ responsividad a 375px
         
         display: transparent;
         width: 0px;
-        width: 400px;
+        width: 350px;
         height: 250px;
         min-height: 1%;
         margin-top: 100px;
