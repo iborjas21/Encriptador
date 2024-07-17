@@ -70,7 +70,7 @@ main{
 
 
 .encriptador{    
-    width: 60%;
+    width: 50%;
     max-width: 680px;
     margin: 160px 0px 0px 200px;
     background-color: var(--color-primario);    
