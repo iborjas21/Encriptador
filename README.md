@@ -1,6 +1,6 @@
 Bienvenido al Encriptador de textos!
 
-El encriptador de momento solo funciona solo con letras minúsculas a peticion del curso
+El encriptador de momento solo funciona con letras minúsculas a peticion del curso
 No deben ser utilizados letras con acentos ni caracteres especiales
 Puede encriptar una palabra o un parrafo y también desencriptar devolviendo la palabra o parrafo a su versión original .
 
